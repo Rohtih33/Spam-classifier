@@ -38,7 +38,6 @@ report = classification_report(y_test, y_pred)
 print(f"Accuracy: {accuracy:.4f}")
 print("Classification Report:\n", report)
 
-pip install streamlit joblib
 
 import streamlit as st
 import joblib
